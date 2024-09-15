@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#EF7373"
+        android:fontFamily="sans-serif"
+        android:text="Agregar producto"
+        android:textAlignment="center"
+        android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+        android:textSize="25dp"
+
+
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:translationY="50dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Nombre de producto" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:translationY="100px"
+                android:hint="ProductName"
+                />
+
+        </FrameLayout>
+
+        <!-- fin layout -->
+
+        <FrameLayout
+            android:layout_width="195dp"
+            android:layout_height="90dp"
+            android:translationY="80dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Precio" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:translationY="100px"
+                android:hint="ProductPrice"/>
+
+        </FrameLayout>
+
+        <!-- fin layout -->
+
+
+        <FrameLayout
+
+            android:layout_width="196dp"
+            android:layout_height="90dp"
+            android:translationX="215dp"
+            android:translationY="80dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Stock"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:translationY="100px"
+                android:hint="ProductStock"
+                />
+
+        </FrameLayout
+            >
+
+        <!-- fin layout -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:translationY="170dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Nombre de proveedor" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:translationY="100px"
+                android:hint="SellerName"/>
+
+        </FrameLayout>
+
+        <!-- fin layout -->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#EF7373"
+            android:text="Agregar producto"
+            android:translationY="270dp"
+            android:contentDescription="AddProduct"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>
